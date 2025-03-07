@@ -35,7 +35,7 @@ The logical schema details the attributes, relationships, and constraints betwee
 - **`household_appliances_DDL.sql`**: Contains the SQL script for database schema creation.
 - **`household_appliances_DML.sql`**: Contains SQL statements for inserting sample data.
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 To set up the database on your local system:
 1. Install PostgreSQL.
 2. Execute the DDL script to create the database schema:
