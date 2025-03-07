@@ -24,12 +24,12 @@ The database follows a structured ER model, ensuring:
 ### Conceptual Schema
 The conceptual schema provides a high-level overview of the database structure, illustrating major entities and their relationships.
 
-![Conceptual Schema](https://github.com/user-attachments/assets/5a30fd6e-eef4-4208-a6f7-9c200c7e76c7)
+![Conceptual Schema](https://github.com/user-attachments/assets/130c17a3-01e0-4f9e-8520-7cfbeb61c8ad)
 
 ### Logical Schema
 The logical schema details the attributes, relationships, and constraints between entities, reflecting how data is structured in the database.
 
-![Logical Schema](https://github.com/user-attachments/assets/0de68747-1cd1-4802-a5c3-161d7ab84a62)
+![Logical Schema](https://github.com/user-attachments/assets/c96246d4-5031-42ea-9adc-6ffbba107d19)
 
 ## Repository Structure
 - **`household_appliances_DDL.sql`**: Contains the SQL script for database schema creation.
@@ -48,6 +48,6 @@ To set up the database on your local system:
    ```
 4. Verify the database by running queries:
    ```sql
-   SELECT * FROM customer;
-   SELECT * FROM appliance;
+   SELECT * FROM MANAGEMENT.CUSTOMERS;
+   SELECT * FROM MANAGEMENT.APPLIANCES;
    ```
