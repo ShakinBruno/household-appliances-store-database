@@ -1,5 +1,7 @@
 # Household Appliances Store Database
 
+### Author: Dominik Mikołajczyk
+
 ## Project Overview
 This repository contains the PostgreSQL implementation of a relational database for a Household Appliances Store. The project aims to streamline the store's operations by efficiently managing inventory, customer orders, suppliers, and employees. The database structure ensures data consistency, reduces redundancy, and improves overall operational efficiency.
 
